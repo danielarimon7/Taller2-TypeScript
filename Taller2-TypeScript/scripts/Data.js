@@ -1,0 +1,11 @@
+import { Serie } from './Serie.js';
+
+export const Series = [
+  new Serie(1, "Breaking Bad", "AMC", 5, "Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.", "https://www.netflix.com/co/title/70143836", "bb.jpeg" ),
+  new Serie(2, "Game of Thrones", "HBO", 8, "En un mundo medieval ficticio, las grandes casas nobles luchan por el control del Trono de Hierro y los Siete Reinos de Westeros, mientras fuerzas mágicas y oscuras se avecinan desde el norte.", "https://www.imdb.com/title/tt0944947/", "got.jpg"),
+  new Serie(3, "The Walking Dead", "AMC", 11, "Un grupo de sobrevivientes liderado por Rick Grimes, un exoficial de policía, intenta sobrevivir en un mundo postapocalíptico dominado por zombis, mientras enfrentan tanto amenazas externas como conflictos internos.", "https://www.imdb.com/title/tt1520211/", "twd.jpeg"),
+  new Serie(4, "Stranger Things", "Netflix", 4, "En la década de 1980, un grupo de niños en la pequeña ciudad de Hawkins se encuentra con fenómenos sobrenaturales mientras buscan a un amigo desaparecido, enfrentándose a un laboratorio secreto y a una niña con habilidades especiales.", "https://www.imdb.com/title/tt4574334/", "st.jpeg"),
+  new Serie(5, "The Crown", "Netflix", 5, "Esta serie dramática sigue la vida de la Reina Isabel II desde su ascenso al trono a una edad temprana, abordando eventos históricos y personales que marcaron su reinado y la historia del Reino Unido.", "https://www.imdb.com/title/tt4786824/", "tc.jpeg"),
+  new Serie(6, "Vikings", "History", 6, "Basada en las leyendas nórdicas, esta serie narra las aventuras de Ragnar Lothbrok, un agricultor que se convierte en un legendario guerrero vikingo, y su viaje para explorar y saquear tierras desconocidas.", "https://www.imdb.com/title/tt2306299/", "vik.jpeg" ),
+  new Serie(7, "The Sopranos", "HBO", 6, "Tony Soprano, un mafioso italoamericano de Nueva Jersey, busca equilibrar las demandas de su vida criminal con las de su familia, todo mientras enfrenta problemas psicológicos y visita regularmente a su terapeuta.", "https://www.imdb.com/title/tt0141842/", "ts.jpg")
+];
